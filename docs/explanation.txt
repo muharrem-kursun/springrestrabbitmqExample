@@ -1,0 +1,22 @@
+
+
+
+                 Bu  program http://localhost:9090/rabbitmq-example/send/messages url 'sinden aşağıdaki gibi bir json veriyi
+             post edip rabbitmq 'nün kuyruğuna ekleyip konsolo basmayı sağlıyor.
+
+             {
+             	"routingKey" :"test-key",
+             	"message" : "muharrem"
+             }
+
+             yukarıdaki gibi bir veriyi post etmek için Postman'de istek türü post body'i raw ve application/Json olarak
+             ayarlayınız.
+
+
+                <dependency>
+        			<groupId>org.springframework.boot</groupId>
+        			<artifactId>spring-boot-starter-amqp</artifactId>
+        		</dependency>
+
+        		Yukarıdaki dependency rabbitmq' nün spring'de kullanılması için gerekli dependency'dir.
+

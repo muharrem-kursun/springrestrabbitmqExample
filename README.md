@@ -1,1 +1,1 @@
-# springrestrabbitmqExample
+# springrestrabbitmqexample
